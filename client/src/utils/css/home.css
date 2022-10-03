@@ -1,0 +1,14 @@
+.table-font{
+    font-size: 18px;
+}
+.page-title{
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 22px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0 auto;
+}

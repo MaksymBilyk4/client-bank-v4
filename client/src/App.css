@@ -1,0 +1,19 @@
+.container{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 85%;
+  height: 100%;
+}
+
+.title-wrapper{
+  font-size: 22px;
+  margin: 30px 0 20px 0;
+  text-align: center;
+}
+.form-data{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #fff;
+}
