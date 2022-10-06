@@ -19,9 +19,7 @@ import java.util.stream.Collectors;
 public class AccountController {
 
     private final AccountService accountService;
-    private final CustomerService customerService;
     private final AccountResponseDtoMapper accountResponseDtoMapper;
-    private final AccountRequestDtoMapper accountRequestDtoMapper;
 
     @GetMapping
     public List<AccountResponseDto> findAll() {
